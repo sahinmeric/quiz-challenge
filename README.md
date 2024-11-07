@@ -44,7 +44,7 @@ A simple quiz application built with React, TypeScript, TailwindCSS, and Vite. T
    ```
 ## Usage
 
-After setting up, the app should run locally at `http://localhost:3000` (or another port if specified by Vite). The app will fetch quiz questions from the Quiz API and display them for users.
+After setting up, the app should run locally at `http://localhost:5173`. The app will fetch quiz questions from the Quiz API and display them for users.
 
 ## Project Structure
 
