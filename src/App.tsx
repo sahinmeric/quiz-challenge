@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Quiz from "./components/Quiz";
 import Results from "./components/Results";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -13,6 +13,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
