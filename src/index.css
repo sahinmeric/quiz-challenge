@@ -1,17 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --primary-blue: #4444e4;
+  --text-color: #ebeff2;
+  font-family: "Bebas Neue", sans-serif;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-blue);
+  color: var(--text-color);
+  margin: 0;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.large-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 180px;
+  line-height: 76%;
+  color: var(--text-color);
+  position: absolute;
+  top: 35%;
+  left: 25%;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.subtitle:hover {
+  color: #d4d7dd;
 }
