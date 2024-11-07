@@ -1,39 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
   --primary-blue: #4444e4;
   --text-color: #ebeff2;
-  font-family: "Bebas Neue", sans-serif;
 }
 
 body {
-  font-family: var(--font-family);
   background-color: var(--primary-blue);
   color: var(--text-color);
-  margin: 0;
+}
+
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .large-title {
-  font-family: "Bebas Neue";
-  font-style: normal;
-  font-weight: 600;
   font-size: 180px;
   line-height: 76%;
   color: var(--text-color);
   position: absolute;
   top: 35%;
-  left: 25%;
+  right: 15%;
 }
 
 .subtitle {
   font-size: 1.5rem;
   color: var(--text-color);
   position: absolute;
-  bottom: 30%;
-  right: 10%;
+  bottom: 40%;
+  right: 15%;
   cursor: pointer;
   transition: color 0.3s;
 }
