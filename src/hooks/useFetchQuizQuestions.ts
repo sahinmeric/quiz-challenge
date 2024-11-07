@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Question } from "../types/types";
 
-const API_KEY = "3i9jAMiHuHYJp61v0RG07tEHjBp8dvIDMTKNLDn0";
+const API_KEY = import.meta.env.VITE_API_KEY;
 const API_URL = "https://quizapi.io/api/v1/questions";
 
 const useFetchQuizQuestions = () => {
